@@ -1,0 +1,7 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: end;
+}
