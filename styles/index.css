@@ -1,3 +1,5 @@
+@import "../blocks/table-title-offset/table-title-offset.css";
+
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/logo/logo.css";
@@ -27,6 +29,11 @@
 @import "../blocks/table/__heading/table__heading.css";
 @import "../blocks/table/__text/table__text.css";
 
+@import "../blocks/feynman/feynman.css";
+@import "../blocks/feynman/__title/feynman__title.css";
+@import "../blocks/feynman/__subtitle/feynman__subtitle.css";
+@import "../blocks/feynman/__main-illustratiton/feynman__main-illustratiton.css";
+@import "../blocks/feynman/__link/feynman__link.css";
 
 
 

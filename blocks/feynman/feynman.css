@@ -1,0 +1,13 @@
+h2,
+h3,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  height: 890px;
+  position: relative;
+}
