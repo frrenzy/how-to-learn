@@ -35,16 +35,13 @@
 @import "../blocks/feynman/__main-illustratiton/feynman__main-illustratiton.css";
 @import "../blocks/feynman/__link/feynman__link.css";
 
+@import "../blocks/kaufman/kaufman.css";
 
+@import "../blocks/kaufman/__triangle/kaufman__triangle.css";
 
-
-/* TODO подумать, мб паддинг секций в микс вынести */
-
-
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+@import "../blocks/section-title/_theme/section-title_theme_dark.css";
+@import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
+@import "../blocks/table/_theme/table_theme_dark.css";
+@import "../blocks/table/__text/_theme/table__text_theme_dark.css";
+@import "../blocks/table/__heading/_theme/table__heading_theme_dark.css";
+@import "../blocks/table/__cell/_theme/table__cell_theme_dark.css";
