@@ -1,3 +1,4 @@
+@import "../vendor/normalize.css";
 @import "../blocks/table-title-offset/table-title-offset.css";
 
 @import "../blocks/page/page.css";
