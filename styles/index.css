@@ -61,7 +61,6 @@
 @import "../blocks/khan/__book-pic/khan__book-pic.css";
 @import "../blocks/khan/__buy-link/khan__buy-link.css";
 
-
 @import "../blocks/kaufman/kaufman.css";
 @import "../blocks/kaufman/__triangle/kaufman__triangle.css";
 
@@ -71,6 +70,14 @@
 @import "../blocks/section-title/_theme/section-title_theme_dark.css";
 @import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
 @import "../blocks/table/_theme/table_theme_dark.css";
+
+@import "../blocks/resources/resources.css";
+@import "../blocks/resources/__logo-zone/resources__logo-zone.css";
+@import "../blocks/logo/_place/logo_place_resources.css";
+@import "../blocks/logo/_resource/logo_resource_arzamas.css";
+@import "../blocks/logo/_resource/logo_resource_n1.css";
+@import "../blocks/logo/_resource/logo_resource_strelka.css";
+@import "../blocks/logo/_resource/logo_resource_polka.css";
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__columns/footer__columns.css";
