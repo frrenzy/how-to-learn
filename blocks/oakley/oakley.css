@@ -1,0 +1,12 @@
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.oakley {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+}
