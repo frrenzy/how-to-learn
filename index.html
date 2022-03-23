@@ -11,21 +11,23 @@
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
-      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни?
+      <h2 class="header__subtitle">
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
       </h2>
-      <img src="images/two_again.png"
+      <img src="./images/two_again.png"
            alt="Фёдор Решетников - картина 'Опять двойка'"
-           class="header__main-illustraton">
-      <div class="header__square-pic"></div>
+           class="header__main-illustraton"
+      >
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
         <div class="two_columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
+            <p class="two-columns__paragraph">
+              Ни в школе, ни в институте нас не учат тому, как правильно изучать
               материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
               сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
               пользы.
@@ -35,11 +37,69 @@
               учиться тоже нужно уметь, но почему-то этому мало где учат. Что с
               этим делать?
             </p>
-            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
+            <p class="two-columns__paragraph">
+              Конкретные техники и упражнения помогают изменить подход к обучению,
               сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
         </div>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title se">Техники обучения</h2>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <ul class="cards list">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png"
+                 alt="Фотография книги"
+                 class="cards__image"
+            >
+            <h4 class="cards__title">Два вида внимания</h4>
+            <p class="cards__description">
+              Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-recall.png"
+                 alt="Скульптура мальчика в раздумьях"
+                 class="cards__image"
+            >
+            <h4 class="cards__title">Recall</h4>
+            <p class="cards__description">
+              Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-interliving.png"
+                 alt="Интерьер мемориала 11 сентября"
+                 class="cards__image"
+            >
+            <h4 class="cards__title">Интерливинг</h4>
+            <p class="cards__description">
+              Изучайте несколько навыков одновременно, они обогащают друг друга.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-question.png"
+                 alt="Маленький человек в пустом белом пространстве"
+                 class="cards__image"
+            >
+            <h4 class="cards__title">Вопросы</h4>
+            <p class="cards__description">
+              Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-competence.png"
+                 alt="Рука держит стопку книг"
+                 class="cards__image"
+            >
+            <h4 class="cards__title">Иллюзия компетентности</h4>
+            <p class="cards__description">
+              Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section class="digits">
@@ -87,7 +147,10 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
         <a href="#" class="feynman__link">Подробнее &rarr;</a>
-        <img src="images/feinman.png" alt="Ричард Фейнман на фоне синего круга" class="feynman__main-illustration">
+        <img src="./images/feinman.png"
+             alt="Ричард Фейнман на фоне синего круга"
+             class="feynman__main-illustration"
+        >
       </section>
 
       <section class="kaufman">
@@ -135,7 +198,10 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img src="images/triangle.svg" alt="Синий треугольник" class="kaufman__triangle">
+        <img src="./images/triangle.svg"
+             alt="Синий треугольник"
+             class="kaufman__triangle rotation"
+        >
       </section>
     </main>
     <footer class="footer">
@@ -156,15 +222,24 @@
           <h2 class="footer__column-heading">Соцсети</h2>
           <div class="footer__column-links">
             <a href="#" class="footer__column-link">
-              <img src="/images/facebook_white.svg" alt="Иконка Facebook" class="footer__social-icon">
+              <img src="./images/facebook_white.svg"
+                   alt="Иконка Facebook"
+                   class="footer__social-icon"
+              >
               Facebook
             </a>
             <a href="#" class="footer__column-link">
-              <img src="/images/vk_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">
+              <img src="./images/vk_white.svg"
+                   alt="Иконка ВКонтакте"
+                   class="footer__social-icon"
+              >
               ВКонтакте
             </a>
             <a href="#" class="footer__column-link">
-              <img src="/images/instagram_white.svg" alt="Иконка Instagram" class="footer__social-icon">
+              <img src="./images/instagram_white.svg"
+                   alt="Иконка Instagram"
+                   class="footer__social-icon"
+              >
               Instagram
             </a>
           </div>
