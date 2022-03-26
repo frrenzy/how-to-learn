@@ -1,12 +1,6 @@
-h2,
-h3,
-a {
-  margin: 0;
-  padding: 0;
-}
-
 .feynman {
   padding-top: 100px;
-  height: 890px;
+  min-height: 890px;
   position: relative;
+  box-sizing: border-box;
 }

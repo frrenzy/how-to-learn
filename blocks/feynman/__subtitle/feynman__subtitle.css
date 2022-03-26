@@ -3,6 +3,7 @@
   font-size: 36px;
   font-weight: normal;
   position: relative;
+  margin: 0;
   z-index: 2;
-  text-align: center; /* TODO понять, проблема ли размер блока во всю ширину родителя */
+  text-align: center;
 }
